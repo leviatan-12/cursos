@@ -1,0 +1,18 @@
+{% macro mostrar_h(valor) %}
+  {% for i in range(1,6) %}
+  <h{{i}}>{{valor}}</h{{i}}>
+  {% endfor %}
+{% endmacro %}
+
+
+{% macro render_field(field)%}
+  <td> {{field.label}}</td>
+  <dd> {{field(**kwargs)|safe}} </dd>
+  {% if(field.errors) %}
+    <ul class="text-danger">
+    {% for er in field.errors %}
+      <li>{{er}}</li>
+    {% endfor %}
+  </ul>
+  {% endif %}
+{% endmacro %}

@@ -1,0 +1,16 @@
+{% extends 'base/base.html'%}
+
+{% block contenido %}
+
+  {% from "macro.html" import render_field %}
+  <div class="col-md-offset-4 col-md-4 panel panel-default">
+  <form class="form-horizontal" id="formularioP" method="POST">
+    {{render_field(form.username,class='form-control')}}
+    {{render_field(form.email,class='form-control')}}
+    {{render_field(form.comment,class='form-control')}}
+    {{form.honeypot}}
+    <input type="submit" class="btn btn-raised btn-success"/>
+  </form>
+</div>
+
+{% endblock %}

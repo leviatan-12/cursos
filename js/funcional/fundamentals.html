@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fundamentals</title>
+  </head>
+  <body>
+    <script>
+//Esto es una prueba personal al ver algo de sus ejemplos.
+    var pruebaArray = function(lista){
+      return lista.reduce(function(p,n){
+        return p.concat(n);
+      });
+    }
+    console.log(pruebaArray([[1,2,3],[4,5,6],[7,8,9]]));
+////////////////////////////////////////////////////////////////////////////////
+//Acumular valores a una lista.
+    var obj1 = {value : 1};
+    var obj2 = {value : 2};
+    var obj3 = {value : 3};
+    var acumularValores = function(obj){
+      let valor = [];
+      valor.push(obj.value);
+      return valor;
+    }
+    console.log(acumularValores(obj1));
+    console.log(acumularValores(obj2));
+    console.log(acumularValores(obj3));
+/*
+El problema es que solo regresa el valor del objeto introducido, pero no crea una lista global
+La solución es una conocida de python: los CLOUSURES.
+*/
+    var acumularValores1 = function(){
+      let valor1 = [];
+      let acumulador = function(obj){
+        if(obj){
+          valor1.push(obj.value);
+        }
+        return valor1;
+      };
+      return acumulador;
+    }
+/*
+Es importante crear la siguiente variable o sino ejecutará siempre la función
+interna en lugar de regresar dicha función.
+*/
+    var temporalAcumulador = acumularValores1();
+    console.log(temporalAcumulador(obj1));
+    console.log(temporalAcumulador(obj2));
+    console.log(temporalAcumulador(obj3));
+/*
+La definición formal que da el libro de los CLOUSURES es que son funciones
+que tienen acceso al estado padre a pesar de que la función padre haya acabado.
+*/
+////////////////////////////////////////////////////////////////////////////////
+/*
+Ahora veremos funciones de orden superior, que consiste en funciones que regresan
+funciones, ya que estas son tratadas como otro tipo de dato más.
+*/
+////////////////////////////////////////////////////////////////////////////////
+/*
+Otra cosa muy importante que define a la programación funcional es que las
+funciones solo deben funcionar con aquello que se les pase como valores, sin
+tomar nada fuera de ellas.
+*/
+////////////////////////////////////////////////////////////////////////////////
+/*
+Las funciones anónimas son funciones que no tienen nombre porque solo se usarán
+en una sola ocasión. Se puede reescribir el último ejemplo como una función
+anónima.
+*/
+  var acumularValores2 = function(){
+      let valor1 = [];
+      return function(obj){
+        if(obj){
+          valor1.push(obj.value);
+        }
+        return valor1;
+      };
+    }
+////////////////////////////////////////////////////////////////////////////////
+/*
+Una cosa bastante interesante que tiene js (también Haskell, pero no me aventuro
+a afirmar que siempre es así) es la capacidad de anidar funciones en una sola
+línea de código, en lugar de hacerlo secuencial
+*/
+  console.log(((([1,4,9,16]).reverse()).concat([25,36])).map(Math.sqrt));
+////////////////////////////////////////////////////////////////////////////////
+    </script>
+  </body>
+</html>

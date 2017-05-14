@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Prueba 2</title>
+  </head>
+  <body>
+    <h2>Hola {{nombre}}</h2>
+    {% if nombre == 'Ricardo' %}
+      <p>Administrador</p>
+    {% else%}
+      <p>Usuario</p>
+    {% endif %}
+
+    {% for i in list%}
+      <p>{{i}}</p>
+    {%endfor%}
+    {% for a in list_dos%}
+      <p>{{a}}</p>
+    {%endfor%}
+  </body>
+</html>
