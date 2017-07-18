@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ricardo Colin</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://ricardocolin.com/</link>
+    <atom:link href="http://ricardocolin.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 17 Jul 2017 17:05:14 -0500</pubDate>
+    <lastBuildDate>Mon, 17 Jul 2017 17:05:14 -0500</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Hola mundo</title>
+        <description>&lt;p&gt;Esta es una prueba de texto que podemos usar para crear mi sitio veb, necesito una imagen profesional.&lt;/p&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 17 Jul 2017 16:25:05 -0500</pubDate>
+        <link>http://ricardocolin.com/jekyll/prueba/2017/07/17/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://ricardocolin.com/jekyll/prueba/2017/07/17/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>prueba</category>
+        
+      </item>
+    
+  </channel>
+</rss>
