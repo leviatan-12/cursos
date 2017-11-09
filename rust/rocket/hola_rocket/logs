@@ -1,0 +1,114 @@
+Configured for development.
+    => address: localhost
+    => port: 8000
+    => log: normal
+    => workers: 8
+    => secret key: generated
+    => limits: forms = 32KiB
+    => tls: disabled
+Mounting '/':
+    => GET /
+    => POST /
+Mounting '/api/v1':
+    => GET /api/v1/frases
+Rocket has launched from http://localhost:8000
+POST / application/x-www-form-urlencoded:
+    => Matched: POST /
+    => Outcome: Success
+    => Response succeeded.
+POST / application/x-www-form-urlencoded:
+    => Matched: POST /
+    => Outcome: Success
+    => Response succeeded.
+POST / application/x-www-form-urlencoded:
+    => Matched: POST /
+    => Outcome: Success
+    => Response succeeded.
+POST / application/x-www-form-urlencoded:
+    => Matched: POST /
+    => Outcome: Success
+    => Response succeeded.
+POST / application/x-www-form-urlencoded:
+    => Matched: POST /
+    => Outcome: Success
+    => Response succeeded.
+POST / application/x-www-form-urlencoded:
+    => Matched: POST /
+    => Outcome: Success
+    => Response succeeded.
+POST / application/x-www-form-urlencoded:
+    => Matched: POST /
+    => Outcome: Success
+    => Response succeeded.
+POST / application/x-www-form-urlencoded:
+    => Matched: POST /
+    => Outcome: Success
+    => Response succeeded.
+POST / application/x-www-form-urlencoded:
+    => Matched: POST /
+    => Outcome: Success
+    => Response succeeded.
+POST / application/x-www-form-urlencoded:
+    => Matched: POST /
+    => Outcome: Success
+    => Response succeeded.
+POST / application/x-www-form-urlencoded:
+    => Matched: POST /
+    => Outcome: Success
+    => Response succeeded.
+POST / application/x-www-form-urlencoded:
+    => Matched: POST /
+    => Outcome: Success
+    => Response succeeded.
+POST / application/x-www-form-urlencoded:
+    => Matched: POST /
+    => Outcome: Success
+    => Response succeeded.
+POST / application/x-www-form-urlencoded:
+    => Matched: POST /
+    => Outcome: Success
+    => Response succeeded.
+POST / application/x-www-form-urlencoded:
+    => Matched: POST /
+    => Outcome: Success
+    => Response succeeded.
+POST / application/x-www-form-urlencoded:
+    => Matched: POST /
+    => Outcome: Success
+    => Response succeeded.
+POST / application/x-www-form-urlencoded:
+    => Matched: POST /
+    => Outcome: Success
+    => Response succeeded.
+POST / application/x-www-form-urlencoded:
+    => Matched: POST /
+    => Outcome: Success
+    => Response succeeded.
+GET /api/v1/frases text/html:
+    => Matched: GET /api/v1/frases
+    => Outcome: Success
+    => Response succeeded.
+GET /api/v1/frases text/html:
+    => Matched: GET /api/v1/frases
+    => Outcome: Success
+    => Response succeeded.
+GET /api/v1/frases text/html:
+    => Matched: GET /api/v1/frases
+    => Outcome: Success
+    => Response succeeded.
+GET /api/v1/frases text/html:
+    => Matched: GET /api/v1/frases
+    => Outcome: Success
+    => Response succeeded.
+GET /api/v1/frases text/html:
+    => Matched: GET /api/v1/frases
+    => Outcome: Success
+    => Response succeeded.
+GET /api/v1/frases text/html:
+    => Matched: GET /api/v1/frases
+    => Outcome: Success
+    => Response succeeded.
+GET /api/v1/frases text/html:
+    => Matched: GET /api/v1/frases
+    => Outcome: Success
+    => Response succeeded.
