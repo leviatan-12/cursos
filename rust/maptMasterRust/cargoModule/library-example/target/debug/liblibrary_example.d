@@ -1,0 +1,1 @@
+/home/ricardo/programacion/cursos/rust/maptMasterRust/cargoModule/library-example/target/debug/liblibrary_example.rlib: /home/ricardo/programacion/cursos/rust/maptMasterRust/cargoModule/library-example/src/lib.rs
