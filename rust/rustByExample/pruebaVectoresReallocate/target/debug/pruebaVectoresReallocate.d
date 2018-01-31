@@ -1,0 +1,1 @@
+/home/ricardo/programacion/cursos/rust/rustByExample/pruebaVectoresReallocate/target/debug/pruebaVectoresReallocate: /home/ricardo/programacion/cursos/rust/rustByExample/pruebaVectoresReallocate/src/main.rs

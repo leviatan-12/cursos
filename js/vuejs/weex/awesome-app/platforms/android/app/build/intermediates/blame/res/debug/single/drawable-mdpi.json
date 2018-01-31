@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/ricardo/programacion/cursos/js/vuejs/weex/awesome-app/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_scan.png",
+        "source": "/home/ricardo/programacion/cursos/js/vuejs/weex/awesome-app/platforms/android/app/src/main/res/drawable-mdpi/ic_action_scan.png"
+    },
+    {
+        "merged": "/home/ricardo/programacion/cursos/js/vuejs/weex/awesome-app/platforms/android/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_action_refresh.png",
+        "source": "/home/ricardo/programacion/cursos/js/vuejs/weex/awesome-app/platforms/android/app/src/main/res/drawable-mdpi/ic_action_refresh.png"
+    }
+]

@@ -1,0 +1,9 @@
+/home/ricardo/programacion/cursos/rust/rocketTutorial/hello-rocket/target/debug/deps/libunicode_normalization-7d5f9ca336ec925c.rlib: /home/ricardo/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/lib.rs /home/ricardo/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/decompose.rs /home/ricardo/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/normalize.rs /home/ricardo/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/recompose.rs /home/ricardo/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/tables.rs
+
+/home/ricardo/programacion/cursos/rust/rocketTutorial/hello-rocket/target/debug/deps/unicode_normalization-7d5f9ca336ec925c.d: /home/ricardo/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/lib.rs /home/ricardo/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/decompose.rs /home/ricardo/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/normalize.rs /home/ricardo/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/recompose.rs /home/ricardo/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/tables.rs
+
+/home/ricardo/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/lib.rs:
+/home/ricardo/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/decompose.rs:
+/home/ricardo/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/normalize.rs:
+/home/ricardo/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/recompose.rs:
+/home/ricardo/.cargo/registry/src/github.com-1ecc6299db9ec823/unicode-normalization-0.1.5/src/tables.rs:

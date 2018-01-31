@@ -1,0 +1,1 @@
+{"rustc":14335811736956280071,"features":"[]","target":14280617579870407483,"profile":13643276833984273590,"path":1036222786711178230,"deps":[["rocket v0.3.6",7665632155450807236],["rocket_codegen v0.3.6",17313519367653951391]],"local":[{"MtimeBased":[[1515987365,270105830],".fingerprint/hello-rocket-dc255b585aa7de6e/dep-bin-hello_rocket-dc255b585aa7de6e"]}],"rustflags":[]}
