@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Webcam Filter</title>
+    <link rel="stylesheet" href="css/style.css"/>
+  </head>
+  <body>
+    <div class="navbar">
+      <h1>Webcam filter</h1>
+    </div>
+    <div class="top-container">
+        <video id="video">Video no disponible...</video>
+        <button type="button" class="btn btn-dark" id="photo-button">Tomar foto</button>
+        <select class="" id="photo-filter">
+          <option value="none">Normal</option>
+          <option value="grayscale(100)">Escala de grises</option>
+          <option value="sepia(100)">Sepia</option>
+          <option value="invert(100)">Invertido</option>
+          <option value="hue-rotate(90deg)">Rotar</option>
+          <option value="blur(10px)">Blur</option>
+          <option value="contrast(200%)">Contraste</option>
+        </select>
+        <button type="button" id="clear-button">Limpiar</button>
+        <canvas id="canvas"></canvas>
+    </div>
+    <div class="bottom-containet">
+      <div id="photos"></div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
