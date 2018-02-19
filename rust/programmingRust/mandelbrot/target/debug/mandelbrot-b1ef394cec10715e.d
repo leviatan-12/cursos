@@ -1,0 +1,1 @@
+/home/ricardo/programacion/cursos/rust/programmingRust/mandelbrot/target/debug/mandelbrot-b1ef394cec10715e: /home/ricardo/programacion/cursos/rust/programmingRust/mandelbrot/src/parseo.rs /home/ricardo/programacion/cursos/rust/programmingRust/mandelbrot/src/main.rs
